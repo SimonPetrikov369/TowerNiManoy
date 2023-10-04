@@ -52,8 +52,8 @@ $(document).ready(function() {
 		
 		$ratingStars = $scorePanel.find('i'),
 		$movesCount = $scorePanel.find('#moves-num');
-		// if (moves > minMoves - 1) {
-			// if ($tower.eq(1).children().length === disksNum || $tower.eq(2).children().length === disksNum) {
+		if (moves > minMoves - 1) {
+			if ($tower.eq(1).children().length === disksNum || $tower.eq(2).children().length === disksNum) {
 				swal({
 					allowEscapeKey: false,
 					allowOutsideClick: false,
@@ -67,8 +67,8 @@ $(document).ready(function() {
 						initGame($tower.eq(0));
 					}
 				})
-			// }
-		// }
+			}
+		}
 		
 		setRating(moves);
 	}
