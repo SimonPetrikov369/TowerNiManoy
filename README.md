@@ -1,5 +1,3 @@
-# Tower of Manoy -  HTML5, JS and SCSS Game
+# Tores de Manoy -  HTML5, JS and SCSS Game
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/eliortabeka/pen/yOrrxG](https://codepen.io/eliortabeka/pen/yOrrxG).
-
-#####Towers of Hanoi
+#####Tores de Manoy
